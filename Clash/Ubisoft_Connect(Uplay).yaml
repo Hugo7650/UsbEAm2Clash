@@ -1,0 +1,14 @@
+payload:
+- ubisoft-uplay-savegames.s3.amazonaws.com
+- ubisoft-orbit-savegames.s3.amazonaws.com
+- crl3.digicert.com
+- crl4.digicert.com
+- ocsp.digicert.com
+- cacerts.digicert.com
+- ocsp.comodoca.com
+- ubistatic-a.akamaihd.net
+- ubistatic2-a.akamaihd.net
+- ubistatic3-a.akamaihd.net
+- public-ubiservices.ubi.com
+- store.ubi.com
+- connect.ubisoft.com
