@@ -47,7 +47,7 @@ for group in groups:
         onedriveDomains = []
         for rule in group['rules']:
             l = ['download', 'china', 'client', 'connection manager']
-            if 'OneDrive' in rule['name']:
+            if 'Microsoft' in group['name'] and 'OneDrive' in rule['name']:
                 onedriveDomains.extend(rule['domains'])
             elif any(x in rule['name'].lower() for x in l):
                 downloadDomains.extend(rule['domains'])
@@ -55,7 +55,8 @@ for group in groups:
                 domains.extend(rule['domains'])
         saveRules(group['name'], domains)
         saveRules(group['name']+' Download', downloadDomains)
-        saveRules('OneDrive', onedriveDomains)
+        if 'Microsoft' in group['name']:
+            saveRules('OneDrive', onedriveDomains)
         gamesDomains.extend(domains)
         gamesDownloadDOmains.extend(downloadDomains)
 saveRules('Games', gamesDomains)
