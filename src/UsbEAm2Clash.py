@@ -22,7 +22,6 @@ for name in config.sections():
         group = {}
         group['name'] = name
         group['nameZH'] = section['ZH']
-        # group['group_id'] = section['Group_ID']
         ids = section['ID'].split(',')
         group['rules'] = []
         for id in ids:
@@ -49,7 +48,7 @@ for group in groups:
             l = ['download', 'china', 'client', 'connection manager']
             if 'Microsoft' in group['name'] and 'OneDrive' in rule['name']:
                 onedriveDomains.extend(rule['domains'])
-            elif any(x in rule['name'].lower() for x in l):
+            elif any(x in rule['name'].lower() for x in l) and "discord" not in rule['name'].lower():
                 downloadDomains.extend(rule['domains'])
             else:
                 domains.extend(rule['domains'])
