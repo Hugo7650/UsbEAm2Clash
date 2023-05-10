@@ -23,7 +23,7 @@ jobs:
       - name: Check for New Commits
         id: checkcommit
         run: |
-          yesterday=2023-05-01
+          yesterday=$(date -I -d yesterday)
           commit_count=$(curl -s "https://api.github.com/repos/dogfight360/UsbEAm/commits?since=${yesterday}T00:00:00Z" | jq '. | length')
           echo "commit_count=${commit_count}" >> $GITHUB_OUTPUT
       - name: Download rules
