@@ -2,7 +2,7 @@
 
 ## Description
 
-UsbEAm2Clash is a tool that uses UsbEAm's rule file to separate the download domain names of various gaming platforms from other domain names. It then converts these domains into a rule-set that can be used with the Clash.
+UsbEAm2Clash is a tool that uses [UsbEAm](https://github.com/dogfight360/UsbEAm)'s rule file to separate the download domain names of various gaming platforms from other domain names. It then converts these domains into a rule-set that can be used with the Clash.
 
 ## Gaming Platforms
 
