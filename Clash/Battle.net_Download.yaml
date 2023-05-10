@@ -1,6 +1,4 @@
 payload:
-- client02.pdl.wow.battlenet.com.cn
-- client05.pdl.wow.battlenet.com.cn
 - bnetcmsus-a.akamaihd.net
 - bnetproduct-a.akamaihd.net
 - content-ui.battle.net
@@ -11,3 +9,4 @@ payload:
 - blzddist1-a.akamaihd.net
 - blzddistkr1-a.akamaihd.net
 - blizzard.gcdn.cloudn.co.kr
+- cn.patch.battlenet.com.cn
