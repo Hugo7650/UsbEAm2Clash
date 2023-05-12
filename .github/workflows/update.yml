@@ -11,7 +11,7 @@ jobs:
       - name: Check for New Commits
         run: |
           yesterday=$(date -I -d yesterday)
-          commit_count=$(curl -s "https://api.github.com/repos/dogfight360/UsbEAm/commits?since=${yesterday}T00:00:00Z" | jq '. | length')
+          commit_count=$(curl -s "https://api.github.com/repos/dogfight360/UsbEAm/commits?since=${yesterday}T00:00:00Z" | jq '[.[] | .sha] | length')
           echo "commit_count=${commit_count}" >> $GITHUB_OUTPUT
   update:
     runs-on: ubuntu-latest
