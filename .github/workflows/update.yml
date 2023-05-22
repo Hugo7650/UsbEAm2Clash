@@ -12,7 +12,7 @@ jobs:
         run: |
           yesterday=$(date -I -d yesterday)
           commits=$(curl -s "https://api.github.com/repos/dogfight360/UsbEAm/commits?since=${yesterday}T00:00:00Z")
-          commit_count=$(echo ${commits} | jq 'if all(.[]; has("commit")) then length else 0 end')
+          commit_count=$(echo ${commits} | jq 'length')
           echo "commit_count=${commit_count}" >> $GITHUB_OUTPUT
   update:
     runs-on: ubuntu-latest
