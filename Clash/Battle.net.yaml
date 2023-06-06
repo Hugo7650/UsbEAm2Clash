@@ -8,3 +8,7 @@ payload:
 - client-api.arkoselabs.com
 - cdn.arkoselabs.com
 - prod-ireland.arkoselabs.com
+- prod.actual.battle.net
+- kr.actual.battle.net
+- us.actual.battle.net
+- eu.actual.battle.net

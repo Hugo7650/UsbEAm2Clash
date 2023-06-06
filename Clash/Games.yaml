@@ -12,6 +12,7 @@ payload:
 - community.akamai.steamstatic.com
 - avatars.akamai.steamstatic.com
 - community.steamstatic.com
+- avatars.steamstatic.com
 - cdn.cloudflare.steamstatic.com
 - community.cloudflare.steamstatic.com
 - store.cloudflare.steamstatic.com
@@ -64,7 +65,7 @@ payload:
 - ubistatic2-a.akamaihd.net
 - ubistatic3-a.akamaihd.net
 - public-ubiservices.ubi.com
-- store.ubi.com
+- store.ubisoft.com
 - connect.ubisoft.com
 - storeedgefd.dsx.mp.microsoft.com
 - store-images.s-microsoft.com
@@ -149,6 +150,10 @@ payload:
 - client-api.arkoselabs.com
 - cdn.arkoselabs.com
 - prod-ireland.arkoselabs.com
+- prod.actual.battle.net
+- kr.actual.battle.net
+- us.actual.battle.net
+- eu.actual.battle.net
 - www.epicgames.com
 - epicgames.com
 - store.epicgames.com
@@ -232,6 +237,7 @@ payload:
 - discord.com
 - discordapp.com
 - dl.discordapp.net
+- discord.gg
 - gateway.discord.gg
 - status.discordapp.com
 - cdn.discordapp.com
