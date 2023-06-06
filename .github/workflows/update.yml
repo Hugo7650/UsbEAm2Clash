@@ -14,6 +14,9 @@ jobs:
           commits=$(curl -s "https://api.github.com/repos/dogfight360/UsbEAm/commits?since=${yesterday}T00:00:00Z")
           commit_count=$(echo ${commits} | jq 'length')
           echo "commit_count=${commit_count}" >> $GITHUB_OUTPUT
+          echo "yesterday: ${yesterday}"
+          echo "commits: ${commits}"
+          echo "commit_count: ${commit_count}"
   update:
     runs-on: ubuntu-latest
     needs: check_commit
