@@ -46,6 +46,7 @@ payload:
 - pc.ea.com
 - cdn.mcr.ea.com
 - pc-assets.ea.com
+- secure.download.dm.origin.com
 - service-aggregation-layer.juno.ea.com
 - contentful-proxy.juno.ea.com
 - autopatch.juno.ea.com
