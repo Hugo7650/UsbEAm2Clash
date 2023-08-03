@@ -22,6 +22,7 @@ payload:
 - clan.cloudflare.steamstatic.com
 - steam-chat.com
 - store.steampowered.com
+- checkout.steampowered.com
 - steamcloud-ugc.storage.googleapis.com
 - help.steampowered.com
 - steamcloudams.blob.core.windows.net

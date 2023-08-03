@@ -640,6 +640,9 @@ payload:
 - assets2.xboxlive.cn
 - dl.delivery.mp.microsoft.com
 - tlu.dl.delivery.mp.microsoft.com
+- fe3cr.delivery.mp.microsoft.com
+- packagespc.xboxlive.com
+- msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 - oemsocuat.download.prss.microsoft.com
 - dreamspark.download.prss.microsoft.com
 - msproductuat.download.prss.microsoft.com
@@ -683,9 +686,6 @@ payload:
 - visualstudio.download.prss.microsoft.com
 - lexuat.download.prss.microsoft.com
 - mpnbenefits.download.prss.microsoft.com
-- fe3cr.delivery.mp.microsoft.com
-- packagespc.xboxlive.com
-- msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 - gog-cdn-lumen.secure2.footprint.net
 - www.gog.com
 - images.gog.com

@@ -22,6 +22,7 @@ payload:
 - clan.cloudflare.steamstatic.com
 - steam-chat.com
 - store.steampowered.com
+- checkout.steampowered.com
 - steamcloud-ugc.storage.googleapis.com
 - help.steampowered.com
 - steamcloudams.blob.core.windows.net
@@ -46,6 +47,7 @@ payload:
 - pc.ea.com
 - cdn.mcr.ea.com
 - pc-assets.ea.com
+- app-images.ea.com
 - secure.download.dm.origin.com
 - service-aggregation-layer.juno.ea.com
 - contentful-proxy.juno.ea.com
@@ -70,7 +72,6 @@ payload:
 - connect.ubisoft.com
 - storeedgefd.dsx.mp.microsoft.com
 - store-images.s-microsoft.com
-- officecdn.microsoft.com
 - displaycatalog.mp.microsoft.com
 - profile.gamepass.com
 - beige.xboxservices.com
@@ -128,6 +129,14 @@ payload:
 - outlook.office.com
 - outlook.office365.com
 - answers.microsoft.com
+- officecdn.microsoft.com
+- statics.teams.cdn.office.net
+- statics.teams.cdn.live.net
+- msgapi.teams.live.com
+- presence.teams.live.com
+- teams.microsoft.com
+- config.teams.microsoft.com
+- rewards.bing.com
 - images.gog-statics.com
 - static-login.gog-statics.com
 - images-1.gog-statics.com

@@ -2,6 +2,7 @@ payload:
 - pc.ea.com
 - cdn.mcr.ea.com
 - pc-assets.ea.com
+- app-images.ea.com
 - secure.download.dm.origin.com
 - service-aggregation-layer.juno.ea.com
 - contentful-proxy.juno.ea.com
