@@ -27,6 +27,8 @@ payload:
 - images.contentstack.io
 - assets.contentstack.io
 - lolstatic-a.akamaihd.net
+- api.hcaptcha.com
+- api2.hcaptcha.com
 - hcaptcha.com
 - www.hcaptcha.com
 - assets.hcaptcha.com

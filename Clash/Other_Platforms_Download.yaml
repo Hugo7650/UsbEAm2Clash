@@ -5,6 +5,8 @@ payload:
 - account.bethesda.net
 - buildinfo.cdp.bethesda.net
 - api.bethesda.net
+- store.hikarifield.co.jp
+- static.hikarifield.co.jp
 - client.hikarifield.co.jp
 - download.hikarifield.co.jp
 - www.paradoxinteractive.com
@@ -52,3 +54,4 @@ payload:
 - download.dlsite.com
 - img.dlsite.jp
 - file.chobit.cc
+- play.dl.dlsite.com

@@ -1,4 +1,6 @@
 payload:
+- gog-cdn-fastly-cp77.gog.com
+- gog-cdn-fastly.gog.com
 - gog-cdn-lumen.secure2.footprint.net
 - www.gog.com
 - images.gog.com
@@ -25,3 +27,4 @@ payload:
 - users.gog.com
 - multiplayer.gog.com
 - embed.gog.com
+- content-system.gog.com

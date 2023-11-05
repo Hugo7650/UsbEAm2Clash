@@ -32,6 +32,13 @@ payload:
 - outlook.office365.com
 - answers.microsoft.com
 - officecdn.microsoft.com
+- view.officeapps.live.com
+- excel.officeapps.live.com
+- powerpoint.officeapps.live.com
+- word-edit.officeapps.live.com
+- word-view.officeapps.live.com
+- visio.officeapps.live.com
+- onenote.officeapps.live.com
 - statics.teams.cdn.office.net
 - statics.teams.cdn.live.net
 - msgapi.teams.live.com
@@ -39,3 +46,4 @@ payload:
 - teams.microsoft.com
 - config.teams.microsoft.com
 - rewards.bing.com
+- uif.microsoft.com

@@ -13,6 +13,7 @@ payload:
 - avatars.akamai.steamstatic.com
 - community.steamstatic.com
 - avatars.steamstatic.com
+- cdn.steamstatic.com
 - cdn.cloudflare.steamstatic.com
 - community.cloudflare.steamstatic.com
 - store.cloudflare.steamstatic.com
@@ -44,6 +45,8 @@ payload:
 - steamcloud-eu.storage.googleapis.com
 - steamcloud-tyo.s3.dualstack.ap-northeast-1.amazonaws.com
 - steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
+- steamcloud-hkg.oss-accelerate.aliyuncs.com
+- steamcloud-sgp.oss-accelerate.aliyuncs.com
 - pc.ea.com
 - cdn.mcr.ea.com
 - pc-assets.ea.com
@@ -67,9 +70,11 @@ payload:
 - ubistatic-a.akamaihd.net
 - ubistatic2-a.akamaihd.net
 - ubistatic3-a.akamaihd.net
+- ubisoft-avatars.akamaized.net
 - public-ubiservices.ubi.com
 - store.ubisoft.com
 - connect.ubisoft.com
+- ubiservices.cdn.ubi.com
 - storeedgefd.dsx.mp.microsoft.com
 - store-images.s-microsoft.com
 - displaycatalog.mp.microsoft.com
@@ -130,6 +135,13 @@ payload:
 - outlook.office365.com
 - answers.microsoft.com
 - officecdn.microsoft.com
+- view.officeapps.live.com
+- excel.officeapps.live.com
+- powerpoint.officeapps.live.com
+- word-edit.officeapps.live.com
+- word-view.officeapps.live.com
+- visio.officeapps.live.com
+- onenote.officeapps.live.com
 - statics.teams.cdn.office.net
 - statics.teams.cdn.live.net
 - msgapi.teams.live.com
@@ -137,6 +149,7 @@ payload:
 - teams.microsoft.com
 - config.teams.microsoft.com
 - rewards.bing.com
+- uif.microsoft.com
 - images.gog-statics.com
 - static-login.gog-statics.com
 - images-1.gog-statics.com
@@ -150,7 +163,16 @@ payload:
 - menu-static.gog-statics.com
 - landing-pages.gog-statics.com
 - store-static.gog-statics.com
+- store-static-modular.gog-statics.com
 - cloudstorage.gog.com
+- support.gog.com
+- static.zdassets.com
+- p29.zdassets.com
+- cdn.jsdelivr.net
+- maxcdn.bootstrapcdn.com
+- cdnjs.cloudflare.com
+- theme.zdassets.com
+- gogsupport.zendesk.com
 - eu.battle.net
 - us.battle.net
 - kr.battle.net
@@ -177,6 +199,8 @@ payload:
 - talon-service-prod.ak.epicgames.com
 - talon-service-v4-prod.ak.epicgames.com
 - store-content-ipv4.ak.epicgames.com
+- api.hcaptcha.com
+- api2.hcaptcha.com
 - hcaptcha.com
 - www.hcaptcha.com
 - assets.hcaptcha.com
@@ -194,6 +218,8 @@ payload:
 - hcaptcha-endpoint.ecosec.on.epicgames.com
 - talon-website-prod.ecosec.on.epicgames.com
 - eos-cloudsaves-live.s3.amazonaws.com
+- api.epicgames.dev
+- overlay-override-service.cbce.live.on.epicgames.com
 - www.rockstargames.com
 - graph.rockstargames.com
 - store.rockstargames.com
@@ -236,6 +262,8 @@ payload:
 - images.contentstack.io
 - assets.contentstack.io
 - lolstatic-a.akamaihd.net
+- api.hcaptcha.com
+- api2.hcaptcha.com
 - hcaptcha.com
 - www.hcaptcha.com
 - assets.hcaptcha.com

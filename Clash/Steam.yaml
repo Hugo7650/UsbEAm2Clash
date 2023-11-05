@@ -13,6 +13,7 @@ payload:
 - avatars.akamai.steamstatic.com
 - community.steamstatic.com
 - avatars.steamstatic.com
+- cdn.steamstatic.com
 - cdn.cloudflare.steamstatic.com
 - community.cloudflare.steamstatic.com
 - store.cloudflare.steamstatic.com
@@ -44,3 +45,5 @@ payload:
 - steamcloud-eu.storage.googleapis.com
 - steamcloud-tyo.s3.dualstack.ap-northeast-1.amazonaws.com
 - steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
+- steamcloud-hkg.oss-accelerate.aliyuncs.com
+- steamcloud-sgp.oss-accelerate.aliyuncs.com
