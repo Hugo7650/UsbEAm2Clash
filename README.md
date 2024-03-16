@@ -9,7 +9,7 @@ UsbEAm2Clash is a tool that uses [UsbEAm](https://github.com/dogfight360/UsbEAm)
 | Gaming Platform | Rule File                                                        | Download Rule File                                                                 |
 | --------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | All-in-One      | [Games.yaml](Clash/Games.yaml)                                   | [Games_Download.yaml](Clash/Games_Download.yaml)                                   |
-| --------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| ---             | ---                                                              | ---                                                                                |
 | Battle.net      | [Battle.net.yaml](Clash/Battle.net.yaml)                         | [Battle.net_Download.yaml](Clash/Battle.net_Download.yaml)                         |
 | EA              | [EA_Desktop.yaml](Clash/EA_Desktop.yaml)                         | [EA_Desktop_Download.yaml](Clash/EA_Desktop_Download.yaml)                         |
 | Epic            | [Epic_Games.yaml](Clash/Epic_Games.yaml)                         | [Epic_Games_Download.yaml](Clash/Epic_Games_Download.yaml)                         |
@@ -20,7 +20,7 @@ UsbEAm2Clash is a tool that uses [UsbEAm](https://github.com/dogfight360/UsbEAm)
 | Steam           | [Steam.yaml](Clash/Steam.yaml)                                   | [Steam_Download.yaml](Clash/Steam_Download.yaml)                                   |
 | Uplay           | [Ubisoft_Connect(Uplay).yaml](Clash/Ubisoft_Connect(Uplay).yaml) | [Ubisoft_Connect(Uplay)_Download.yaml](Clash/Ubisoft_Connect(Uplay)_Download.yaml) |
 | Other           | [Other_Platforms.yaml](Clash/Other_Platforms.yaml)               | [Other_Platforms_Download.yaml](Clash/Other_Platforms_Download.yaml)               |
-| --------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| ---             | ---                                                              | ---                                                                                |
 | Nintendo        | [Nintendo.yaml](Clash/Nintendo.yaml)                             | [Nintendo_Download.yaml](Clash/Nintendo_Download.yaml)                             |
 | Playstation     | [Playstation.yaml](Clash/Playstation.yaml)                       | [Playstation_Download.yaml](Clash/Playstation_Download.yaml)                       |
 | Xbox            | [Xbox.yaml](Clash/Xbox.yaml)                                     | [Xbox_Download.yaml](Clash/Xbox_Download.yaml)                                     |
