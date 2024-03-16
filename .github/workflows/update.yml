@@ -31,7 +31,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Download rules
-        run: curl -L -o UsbEAm.ini https://raw.githubusercontent.com/dogfight360/UsbEAm/master/Usbeam/usbeam_new_20.xml 
+        run: curl -L -o UsbEAm.ini https://raw.githubusercontent.com/dogfight360/UsbEAm/master/Usbeam/usbeam_new_20.xml
+      - name: Download console rules
+        run: curl -L -o UsbEAm_console.ini https://raw.githubusercontent.com/dogfight360/UsbEAm/master/Usbeam/usbeam_console.xml
       - name: Update rules
         run: python src/UsbEAm2Clash.py
       - name: Commit changes
