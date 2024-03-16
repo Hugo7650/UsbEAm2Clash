@@ -1,0 +1,23 @@
+payload:
+- ctest.cdn.nintendo.net
+- api.accounts.nintendo.com
+- accounts.nintendo.com
+- cdn.accounts.nintendo.com
+- app-a04.lp1.npns.srv.nintendo.net
+- app-b03.lp1.npns.srv.nintendo.net
+- app-b02.lp1.npns.srv.nintendo.net
+- app-b01.lp1.npns.srv.nintendo.net
+- consumer.lp1.npns.srv.nintendo.net
+- aauth-lp1.ndas.srv.nintendo.net
+- dauth-lp1.ndas.srv.nintendo.net
+- scsi-upload-lp1.s3.us-west-2.amazonaws.com
+- bcat-data-lp1.cdn.nintendo.net
+- bcat-topics-lp1.cdn.nintendo.net
+- bcat-list-lp1.cdn.nintendo.net
+- e0d67c509fb203858ebcb2fe3f88c2aa.baas.nintendo.com
+- cdn-image-e0d67c509fb203858ebcb2fe3f88c2aa.baas.nintendo.com
+- cdn-image-icons.baas.nintendo.com
+- bugyo.hac.lp1.eshop.nintendo.net
+- tagaya.hac.lp1.eshop.nintendo.net
+- beach.hac.lp1.eshop.nintendo.net
+- pushmo.hac.lp1.eshop.nintendo.net
