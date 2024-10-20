@@ -1,5 +1,6 @@
 payload:
 - pc.ea.com
+- www.ea.com
 - cdn.mcr.ea.com
 - pc-assets.ea.com
 - app-images.ea.com
@@ -12,3 +13,4 @@ payload:
 - api1.origin.com
 - rtm.tnt-ea.com
 - cdn.eaanticheat.ac.ea.com
+- cloudsync-prod.s3.us-east-1.amazonaws.com

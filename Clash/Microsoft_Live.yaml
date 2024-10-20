@@ -21,6 +21,10 @@ payload:
 - www.bing.com
 - r.bing.com
 - cn.bing.com
+- edgeservices.bing.com
+- www.bingapis.com
+- www2.bing.com
+- sydney.bing.com
 - wdcp(remove).microsoft.com
 - wdcpalt(remove).microsoft.com
 - smartscreen.microsoft.com

@@ -2,11 +2,15 @@ payload:
 - bnetcmsus-a.akamaihd.net
 - bnetproduct-a.akamaihd.net
 - content-ui.battle.net
+- blzdist-phx.necdn.leihuo.netease.com
+- blzdist-wow.necdn.leihuo.netease.com
+- blzdist-hs.necdn.leihuo.netease.com
 - kr.cdn.blizzard.com
 - us.cdn.blizzard.com
 - eu.cdn.blizzard.com
-- level3.blizzard.com
 - blzddist1-a.akamaihd.net
 - blzddistkr1-a.akamaihd.net
+- level3.blizzard.com
+- level3.ssl.blizzard.com
 - blizzard.gcdn.cloudn.co.kr
 - cn.patch.battlenet.com.cn

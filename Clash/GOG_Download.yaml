@@ -1,7 +1,11 @@
 payload:
 - gog-cdn-fastly-cp77.gog.com
 - gog-cdn-fastly.gog.com
-- gog-cdn-lumen.secure2.footprint.net
+- recommendations-api.gog.com
+- sections.gog.com
+- galaxy-promos.gog.com
+- marketing-sections.gog.com
+- gog-cdn.akamaized.net
 - www.gog.com
 - images.gog.com
 - images-1.gog.com
@@ -28,3 +32,5 @@ payload:
 - multiplayer.gog.com
 - embed.gog.com
 - content-system.gog.com
+- catalog.gog.com
+- downloadable-manifests-collector.gog.com

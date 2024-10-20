@@ -7,7 +7,7 @@ payload:
 - account.battle.net
 - client-api.arkoselabs.com
 - cdn.arkoselabs.com
-- prod-ireland.arkoselabs.com
+- blizzard-api.arkoselabs.com
 - prod.actual.battle.net
 - kr.actual.battle.net
 - us.actual.battle.net

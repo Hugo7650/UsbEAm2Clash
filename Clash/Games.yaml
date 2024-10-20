@@ -14,6 +14,8 @@ payload:
 - community.steamstatic.com
 - avatars.steamstatic.com
 - cdn.steamstatic.com
+- video.steamstatic.com
+- shared.steamstatic.com
 - cdn.cloudflare.steamstatic.com
 - community.cloudflare.steamstatic.com
 - store.cloudflare.steamstatic.com
@@ -21,6 +23,7 @@ payload:
 - avatars.cloudflare.steamstatic.com
 - dfs.cloudflare.steamstatic.com
 - clan.cloudflare.steamstatic.com
+- shared.cloudflare.steamstatic.com
 - steam-chat.com
 - store.steampowered.com
 - checkout.steampowered.com
@@ -48,6 +51,7 @@ payload:
 - steamcloud-hkg.oss-accelerate.aliyuncs.com
 - steamcloud-sgp.oss-accelerate.aliyuncs.com
 - pc.ea.com
+- www.ea.com
 - cdn.mcr.ea.com
 - pc-assets.ea.com
 - app-images.ea.com
@@ -60,6 +64,7 @@ payload:
 - api1.origin.com
 - rtm.tnt-ea.com
 - cdn.eaanticheat.ac.ea.com
+- cloudsync-prod.s3.us-east-1.amazonaws.com
 - ubisoft-uplay-savegames.s3.amazonaws.com
 - ubisoft-orbit-savegames.s3.amazonaws.com
 - crl3.digicert.com
@@ -102,6 +107,7 @@ payload:
 - assets.xbox.com
 - assets-www.xbox.com
 - compass-ssl.xbox.com
+- xsts.auth.xboxlive.com
 - d.docs.live.net
 - contentsync.onenote.com
 - hierarchyapi.onenote.com
@@ -124,6 +130,10 @@ payload:
 - www.bing.com
 - r.bing.com
 - cn.bing.com
+- edgeservices.bing.com
+- www.bingapis.com
+- www2.bing.com
+- sydney.bing.com
 - wdcp(remove).microsoft.com
 - wdcpalt(remove).microsoft.com
 - smartscreen.microsoft.com
@@ -163,7 +173,6 @@ payload:
 - menu-static.gog-statics.com
 - landing-pages.gog-statics.com
 - store-static.gog-statics.com
-- store-static-modular.gog-statics.com
 - cloudstorage.gog.com
 - support.gog.com
 - static.zdassets.com
@@ -181,7 +190,7 @@ payload:
 - account.battle.net
 - client-api.arkoselabs.com
 - cdn.arkoselabs.com
-- prod-ireland.arkoselabs.com
+- blizzard-api.arkoselabs.com
 - prod.actual.battle.net
 - kr.actual.battle.net
 - us.actual.battle.net
@@ -190,6 +199,7 @@ payload:
 - epicgames.com
 - store.epicgames.com
 - static-assets-prod.unrealengine.com
+- static-assets-prod.epicgames.com
 - cdn1.epicgames.com
 - cdn2.epicgames.com
 - cdn2.unrealengine.com
@@ -207,6 +217,9 @@ payload:
 - imgs.hcaptcha.com
 - newassets.hcaptcha.com
 - js.hcaptcha.com
+- cf-imgs.hcaptcha.com
+- imgs2.hcaptcha.com
+- imgs3.hcaptcha.com
 - hcaptcha-assets.ecosec.on.epicgames.com
 - caldera-service-prod.ecosec.on.epicgames.com
 - hcaptcha-api.ecosec.on.epicgames.com
@@ -270,6 +283,9 @@ payload:
 - imgs.hcaptcha.com
 - newassets.hcaptcha.com
 - js.hcaptcha.com
+- cf-imgs.hcaptcha.com
+- imgs2.hcaptcha.com
+- imgs3.hcaptcha.com
 - hcaptcha-assets.ecosec.on.epicgames.com
 - support.discordapp.com
 - discord.com
@@ -388,6 +404,8 @@ payload:
 - productionwiki-hoi4-pt.paradoxwikis.com
 - survivingmars.paradoxwikis.com
 - aowplanetfall.paradoxwikis.com
+- mods.paradoxplaza.com
+- forumcontent.paradoxplaza.com
 - support.paradoxplaza.com
 - assets.zendesk.com
 - ekr.zdassets.com

@@ -3,6 +3,7 @@ payload:
 - epicgames.com
 - store.epicgames.com
 - static-assets-prod.unrealengine.com
+- static-assets-prod.epicgames.com
 - cdn1.epicgames.com
 - cdn2.epicgames.com
 - cdn2.unrealengine.com
@@ -20,6 +21,9 @@ payload:
 - imgs.hcaptcha.com
 - newassets.hcaptcha.com
 - js.hcaptcha.com
+- cf-imgs.hcaptcha.com
+- imgs2.hcaptcha.com
+- imgs3.hcaptcha.com
 - hcaptcha-assets.ecosec.on.epicgames.com
 - caldera-service-prod.ecosec.on.epicgames.com
 - hcaptcha-api.ecosec.on.epicgames.com
