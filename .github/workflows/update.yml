@@ -5,22 +5,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  check_commit:
-    runs-on: ubuntu-latest
-    outputs:
-      commit_count: ${{ steps.check.outputs.commit_count }}
-    steps:
-      - name: Check for New Commits
-        id: check
-        run: |
-          yesterday=$(date -I -d yesterday)
-          commits=$(curl -s "https://api.github.com/repos/dogfight360/UsbEAm/commits?since=${yesterday}T00:00:00Z")
-          commit_count=$(echo ${commits} | jq 'length')
-          echo "commit_count=${commit_count}" >> $GITHUB_OUTPUT
   update:
     runs-on: ubuntu-latest
-    needs: check_commit
-    if: ${{ needs.check_commit.outputs.commit_count > 0 }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -31,9 +17,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Download rules
-        run: curl -L -o UsbEAm.ini https://raw.githubusercontent.com/dogfight360/UsbEAm/master/Usbeam/usbeam_new_20.xml
+        run: curl -L -o UsbEAm.ini https://usbeam.steam302.xyz/Usbeam/usbeam_new_20.xml
       - name: Download console rules
-        run: curl -L -o UsbEAm_console.ini https://raw.githubusercontent.com/dogfight360/UsbEAm/master/Usbeam/usbeam_console.xml
+        run: curl -L -o UsbEAm_console.ini https://usbeam.steam302.xyz/Usbeam/usbeam_console.xml
       - name: Update rules
         run: python src/UsbEAm2Clash.py
       - name: Commit changes
