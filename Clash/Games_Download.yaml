@@ -439,6 +439,7 @@ payload:
 - st-bak.viv.wanwang.space
 - dl.steam.clngaa.com
 - steamcloud-ugc-hkg.oss-accelerate.aliyuncs.com
+- client-update.steamstatic.com
 - media.st.dl.eccdnx.com
 - media.steampowered.com
 - ipv6check-http.steamserver.net
@@ -817,6 +818,16 @@ payload:
 - content-system.gog.com
 - catalog.gog.com
 - downloadable-manifests-collector.gog.com
+- productcard.gog-statics.com
+- webinstallers.gog-statics.com
+- galaxy-library.gog.com
+- images.gog-statics.com
+- images-1.gog-statics.com
+- images-2.gog-statics.com
+- images-3.gog-statics.com
+- images-4.gog-statics.com
+- www4-static.gog-statics.com
+- menu-static.gog-statics.com
 - bnetcmsus-a.akamaihd.net
 - bnetproduct-a.akamaihd.net
 - content-ui.battle.net

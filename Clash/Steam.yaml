@@ -16,6 +16,8 @@ payload:
 - cdn.steamstatic.com
 - video.steamstatic.com
 - shared.steamstatic.com
+- client-update.akamai.steamstatic.com
+- clientconfig.akamai.steamstatic.com
 - cdn.cloudflare.steamstatic.com
 - community.cloudflare.steamstatic.com
 - store.cloudflare.steamstatic.com
@@ -24,6 +26,12 @@ payload:
 - dfs.cloudflare.steamstatic.com
 - clan.cloudflare.steamstatic.com
 - shared.cloudflare.steamstatic.com
+- shared.fastly.steamstatic.com
+- avatars.fastly.steamstatic.com
+- video.fastly.steamstatic.com
+- cdn.fastly.steamstatic.com
+- clan.fastly.steamstatic.com
+- client-update.fastly.steamstatic.com
 - steam-chat.com
 - store.steampowered.com
 - checkout.steampowered.com
