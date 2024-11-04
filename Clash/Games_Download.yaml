@@ -672,6 +672,10 @@ payload:
 - cmp1-sgp1.steamserver.net
 - cmp1-atl3.steamserver.net
 - cmp2-sgp1.steamserver.net
+- cmp1-sto2.steamserver.net
+- cmp2-sto2.steamserver.net
+- cmp2-mad1.steamserver.net
+- cmp1-mad1.steamserver.net
 - origin-a.akamaihd.net
 - uplaypc-s-ubisoft.cdn.ubionline.com.cn
 - ubisoftconnect.cdn.ubi.com
