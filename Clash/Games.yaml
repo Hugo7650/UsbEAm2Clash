@@ -16,6 +16,7 @@ payload:
 - cdn.steamstatic.com
 - video.steamstatic.com
 - shared.steamstatic.com
+- clan.steamstatic.com
 - client-update.akamai.steamstatic.com
 - clientconfig.akamai.steamstatic.com
 - cdn.cloudflare.steamstatic.com
