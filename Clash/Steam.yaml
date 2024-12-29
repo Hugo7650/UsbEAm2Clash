@@ -57,5 +57,13 @@ payload:
 - steamcloud-eu.storage.googleapis.com
 - steamcloud-tyo.s3.dualstack.ap-northeast-1.amazonaws.com
 - steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
+- steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
+- steamcloud-syd.s3.dualstack.ap-southeast-2.amazonaws.com
+- steamcloud-mumbai.s3.dualstack.ap-south-1.amazonaws.com
+- steamcloud-us-west.s3.dualstack.us-west-1.amazonaws.com
+- steamcloud-us-east.s3.dualstack.us-east-1.amazonaws.com
+- steamcloud-frf.s3.dualstack.eu-central-1.amazonaws.com
+- steamcloud-dub.s3.dualstack.eu-west-1.amazonaws.com
+- steamcloud-br.s3.dualstack.sa-east-1.amazonaws.com
 - steamcloud-hkg.oss-accelerate.aliyuncs.com
 - steamcloud-sgp.oss-accelerate.aliyuncs.com
