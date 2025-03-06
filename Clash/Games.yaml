@@ -19,6 +19,14 @@ payload:
 - clan.steamstatic.com
 - client-update.akamai.steamstatic.com
 - clientconfig.akamai.steamstatic.com
+- images.akamai.steamusercontent.com
+- images.steamusercontent.com
+- cloud-3.steamusercontent.com
+- cloud-4.steamusercontent.com
+- cloud-2.steamusercontent.com
+- cdn.akamai.steamusercontent.com
+- cdn.steamusercontent.com
+- depotcontent.akamai.steamusercontent.com
 - cdn.cloudflare.steamstatic.com
 - community.cloudflare.steamstatic.com
 - store.cloudflare.steamstatic.com
