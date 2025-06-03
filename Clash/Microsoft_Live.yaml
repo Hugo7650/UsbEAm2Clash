@@ -12,6 +12,7 @@ payload:
 - amcdn.msftauth.net
 - alcdn.msftauth.net
 - ccscdn.msftauth.net
+- account.live.com
 - account.microsoft.com
 - edge.microsoft.com
 - api.cognitive.microsofttranslator.com
