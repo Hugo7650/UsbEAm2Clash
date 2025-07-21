@@ -15,6 +15,7 @@ payload:
 - avatars.steamstatic.com
 - cdn.steamstatic.com
 - video.steamstatic.com
+- video.akamai.steamstatic.com
 - shared.steamstatic.com
 - clan.steamstatic.com
 - client-update.akamai.steamstatic.com
