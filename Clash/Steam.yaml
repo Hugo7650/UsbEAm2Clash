@@ -18,6 +18,8 @@ payload:
 - video.akamai.steamstatic.com
 - shared.steamstatic.com
 - clan.steamstatic.com
+- shared.akamai.steamstatic.com
+- clan.akamai.steamstatic.com
 - client-update.akamai.steamstatic.com
 - clientconfig.akamai.steamstatic.com
 - images.akamai.steamusercontent.com
