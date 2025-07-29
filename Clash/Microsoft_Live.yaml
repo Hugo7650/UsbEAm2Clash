@@ -36,7 +36,9 @@ payload:
 - outlook.office.com
 - outlook.office365.com
 - answers.microsoft.com
+- c2rsetup.officeapps.live.com
 - officecdn.microsoft.com
+- f.c2r.ts.cdn.office.net
 - view.officeapps.live.com
 - excel.officeapps.live.com
 - powerpoint.officeapps.live.com
