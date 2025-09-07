@@ -679,6 +679,7 @@ payload:
 - cmp1-atl3.steamserver.net
 - cmp2-dfw1.steamserver.net
 - cmp2-sgp1.steamserver.net
+- prod.cloudflare.cdn.ea.com
 - origin-a.akamaihd.net
 - uplaypc-s-ubisoft.cdn.ubionline.com.cn
 - ubisoftconnect.eo-edgefunctions7.com
