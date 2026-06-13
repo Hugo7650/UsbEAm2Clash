@@ -1,4 +1,8 @@
 name: Update rule set
+
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -9,19 +13,50 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10' 
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Install Mihomo
+        run: |
+          MIHOMO_VERSION="v1.19.24"
+          MIHOMO_FILE="mihomo-linux-amd64-${MIHOMO_VERSION}.gz"
+          DOWNLOAD_URL="https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/${MIHOMO_FILE}"
+
+          echo "Downloading Mihomo from: $DOWNLOAD_URL"
+          wget -q "$DOWNLOAD_URL" -O mihomo.gz
+          gunzip mihomo.gz
+          chmod +x mihomo
+          sudo mv mihomo /usr/local/bin/mihomo
+
+          echo "Installed Mihomo version:"
+          mihomo -v
       - name: Download rules
         run: curl -L -o UsbEAm.ini https://usbeam.steam302.xyz/Usbeam/usbeam_new_20.xml
       - name: Download console rules
         run: curl -L -o UsbEAm_console.ini https://usbeam.steam302.xyz/Usbeam/usbeam_console.xml
       - name: Update rules
         run: python src/UsbEAm2Clash.py
+      - name: Convert rules to MRS
+        run: |
+          mkdir -p mrs
+
+          find Clash -type f -name '*.yaml' -print0 | while IFS= read -r -d '' f; do
+            rel="${f#Clash/}"
+            out="mrs/${rel%.yaml}.mrs"
+            mkdir -p "$(dirname "$out")"
+
+            echo "Converting $f to $out..."
+            if ! mihomo convert-ruleset domain yaml "$f" "$out"; then
+              echo "Failed to convert $f"
+              head -n 20 "$f"
+              exit 8
+            fi
+            echo "Converted $out"
+          done
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
