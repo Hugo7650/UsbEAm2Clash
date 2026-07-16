@@ -794,6 +794,7 @@ payload:
 - lexuat.download.prss.microsoft.com
 - mpnbenefits.download.prss.microsoft.com
 - catalog.sf.dl.delivery.mp.microsoft.com
+- gog-cdn.gcdn.co
 - gog-cdn-fastly-cp77.gog.com
 - gog-cdn-fastly.gog.com
 - recommendations-api.gog.com

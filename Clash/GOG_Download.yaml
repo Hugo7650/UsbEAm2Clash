@@ -1,4 +1,5 @@
 payload:
+- gog-cdn.gcdn.co
 - gog-cdn-fastly-cp77.gog.com
 - gog-cdn-fastly.gog.com
 - recommendations-api.gog.com
