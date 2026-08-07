@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "gamedownloads.rockstargames.com",
+        "gamedownloads-rockstargames-com.akamaized.net"
+      ]
+    }
+  ]
+}

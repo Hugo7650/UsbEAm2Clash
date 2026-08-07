@@ -1,0 +1,18 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "cloudstorage.gog.com",
+        "support.gog.com",
+        "static.zdassets.com",
+        "p29.zdassets.com",
+        "cdn.jsdelivr.net",
+        "maxcdn.bootstrapcdn.com",
+        "cdnjs.cloudflare.com",
+        "theme.zdassets.com",
+        "gogsupport.zendesk.com"
+      ]
+    }
+  ]
+}

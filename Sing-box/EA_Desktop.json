@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "pc.ea.com",
+        "www.ea.com",
+        "cdn.mcr.ea.com",
+        "pc-assets.ea.com",
+        "app-images.ea.com",
+        "secure.download.dm.origin.com",
+        "service-aggregation-layer.juno.ea.com",
+        "contentful-proxy.juno.ea.com",
+        "autopatch.juno.ea.com",
+        "desktop-config.juno.ea.com",
+        "ratt.juno.ea.com",
+        "api1.origin.com",
+        "rtm.tnt-ea.com",
+        "cdn.eaanticheat.ac.ea.com",
+        "cloudsync-prod.s3.us-east-1.amazonaws.com"
+      ]
+    }
+  ]
+}

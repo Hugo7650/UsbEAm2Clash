@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "prod.cloudflare.cdn.ea.com",
+        "origin-a.akamaihd.net"
+      ]
+    }
+  ]
+}

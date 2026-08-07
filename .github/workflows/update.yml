@@ -22,7 +22,17 @@ jobs:
         run: pip install -r requirements.txt
       - name: Install Mihomo
         run: |
-          MIHOMO_VERSION="v1.19.24"
+          MIHOMO_VERSION="$(curl -fsSL \
+            -H 'Accept: application/vnd.github+json' \
+            -H 'X-GitHub-Api-Version: 2022-11-28' \
+            https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
+            | jq -r '.tag_name')"
+
+          if [ -z "$MIHOMO_VERSION" ] || [ "$MIHOMO_VERSION" = "null" ]; then
+            echo "Failed to resolve the latest Mihomo version"
+            exit 1
+          fi
+
           MIHOMO_FILE="mihomo-linux-amd64-${MIHOMO_VERSION}.gz"
           DOWNLOAD_URL="https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/${MIHOMO_FILE}"
 
@@ -34,14 +44,39 @@ jobs:
 
           echo "Installed Mihomo version:"
           mihomo -v
+      - name: Install sing-box
+        run: |
+          SING_BOX_VERSION="$(curl -fsSL \
+            -H 'Accept: application/vnd.github+json' \
+            -H 'X-GitHub-Api-Version: 2022-11-28' \
+            https://api.github.com/repos/SagerNet/sing-box/releases/latest \
+            | jq -r '.tag_name | ltrimstr("v")')"
+
+          if [ -z "$SING_BOX_VERSION" ] || [ "$SING_BOX_VERSION" = "null" ]; then
+            echo "Failed to resolve the latest sing-box version"
+            exit 1
+          fi
+
+          SING_BOX_DIR="sing-box-${SING_BOX_VERSION}-linux-amd64"
+          SING_BOX_ARCHIVE="${SING_BOX_DIR}.tar.gz"
+          wget -q "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/${SING_BOX_ARCHIVE}"
+          tar -xzf "$SING_BOX_ARCHIVE"
+          echo "$PWD/$SING_BOX_DIR" >> "$GITHUB_PATH"
+
+          sing-box version
       - name: Download rules
         run: curl -L -o UsbEAm.ini https://usbeam.steam302.xyz/Usbeam/usbeam_new_20.xml
       - name: Download console rules
         run: curl -L -o UsbEAm_console.ini https://usbeam.steam302.xyz/Usbeam/usbeam_console.xml
       - name: Update rules
         run: python src/UsbEAm2Clash.py
+      - name: Convert rules to sing-box JSON
+        run: |
+          rm -rf Sing-box
+          python src/Clash2Singbox.py --source Clash --output Sing-box
       - name: Convert rules to MRS
         run: |
+          rm -rf mrs
           mkdir -p mrs
 
           find Clash -type f -name '*.yaml' -print0 | while IFS= read -r -d '' f; do
@@ -56,6 +91,24 @@ jobs:
               exit 8
             fi
             echo "Converted $out"
+          done
+      - name: Convert rules to SRS
+        run: |
+          rm -rf srs
+          mkdir -p srs
+
+          find Sing-box -type f -name '*.json' -print0 | while IFS= read -r -d '' f; do
+            rel="${f#Sing-box/}"
+            out="srs/${rel%.json}.srs"
+            mkdir -p "$(dirname "$out")"
+
+            echo "Compiling $f to $out..."
+            if ! sing-box rule-set compile --output "$out" "$f"; then
+              echo "Failed to compile $f"
+              head -n 20 "$f"
+              exit 8
+            fi
+            echo "Compiled $out"
           done
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
