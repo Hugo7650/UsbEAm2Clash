@@ -61,8 +61,9 @@ jobs:
           SING_BOX_ARCHIVE="${SING_BOX_DIR}.tar.gz"
           wget -q "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/${SING_BOX_ARCHIVE}"
           tar -xzf "$SING_BOX_ARCHIVE"
-          echo "$PWD/$SING_BOX_DIR" >> "$GITHUB_PATH"
+          sudo mv $SING_BOX_DIR/sing-box /usr/local/bin/sing-box
 
+          echo "Installed Sing-box version:"
           sing-box version
       - name: Download rules
         run: curl -L -o UsbEAm.ini https://usbeam.steam302.xyz/Usbeam/usbeam_new_20.xml
